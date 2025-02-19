@@ -1,0 +1,25 @@
+.content {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   
+   padding: 10px;
+   column-gap: 50px;
+   row-gap: 25px;
+   background-color: lightsalmon;
+   
+}
+
+.content > div {
+    background-color: aqua;
+    border: 1px solid black;
+    
+  
+    text-align: center;
+    padding: 10px;
+
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 10;
+}
